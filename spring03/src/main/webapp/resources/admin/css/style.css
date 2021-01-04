@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=MuseoModerno:wght@200&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* =======================================================
+*
+* 	Template Style 
+*	Edit this section
+*
+* ======================================================= */
+body {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 16px;
+  background: #fff;
+  color: #000000 !important; 
+  overflow-x: hidden;
+}
+body.fh5co-offcanvas {
+  overflow: hidden;
+}
+
+a {
+  color: #212121;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#header a:hover {
+  text-decoration: none;/* !important */
+  color: #2da9d7;
+}
+a:active, a:focus {
+  outline: none;
+}
+
+p, ul, ol {
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5  {
+  color: #212121;
+  font-family: "Roboto", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+figure {
+  margin-bottom: 2em;
+}
+
+::-webkit-selection {
+  color: #fcfcfc;
+  background: #2da9d7;
+}
+
+::-moz-selection {
+  color: #fcfcfc;
+  background: #2da9d7;
+}
+
+::selection {
+  color: #fcfcfc;
+  background: #2da9d7;
+}
+
+#fh5co-header {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  font-size: 145px;
+}
+#fh5co-header #fh5co-logo img {
+  max-width: 100%;
+}
+#fh5co-header nav {
+  padding-top: 20px;
+}
+#fh5co-header nav ul {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-header nav ul li {
+  font-size: 500px;
+  font-family: 'Roboto', 'Gothic A1', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  list-style: none;
+  font-size: 20px;
+}
+#fh5co-header nav ul li a {
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  #fh5co-header nav ul li a {
+    padding: 5px;
+  }
+}
+#fh5co-header nav ul li a:hover, #fh5co-header nav ul li a:active, #fh5co-header nav ul li a:focus {
+  color: #000 !important;
+  text-decoration: none;
+  outline: none;
+}
+#fh5co-header nav ul li.active a {
+  text-decoration: line-through !important;
+  color: black !important;
+}
+
+h6 {
+	font-family: 'Monoton', cursive !important;
+	font-size: 130px;
+	color: black;
+}
+#fh5co-header button {
+    width: 120px;
+    height: 120px;
+    line-height: 0;
+}
+#fh5co-header i {
+	font-size: 70px;
+	color: #333333;
+}
+#fh5co-header p {
+	margin: revert;
+	bottom: 0px;
+}
